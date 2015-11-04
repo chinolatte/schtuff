@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:latest
 RUN mkdir /data
 COPY beavis.txt /data/
 ENTRYPOINT ["cat", "/data/beavis.txt"]
